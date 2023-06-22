@@ -1,5 +1,8 @@
 # Spaceship Services Frontend
 
+![App ScreenShot](https://github.com/aunjum/spaceship-services-frontend/blob/main/public/assets/app.png)
+
+
 ## Tech Stack
 
 Node v16.13.0
