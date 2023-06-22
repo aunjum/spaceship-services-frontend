@@ -2,15 +2,16 @@
 
 ## Tech Stack
 
-PHP 8.2.4
+Node v16.13.0
 
-Composer 2.5.8
+Npm 9.6.3
 
-Laravel 4.5.0
+NextJs 13
 
 
 ## Installation Guide
 
+After installing [spaceship-services-backend](https://github.com/aunjum/spaceship-services-frontend.git) follow this:
 
 ### Step 1: Clone git repo
 
@@ -19,4 +20,13 @@ Laravel 4.5.0
   cd spaceship-services-frontend
 ```
 
-### Step 2: Open the `spaceship-services-frontend` folder in your  code editor
+### Step 2: Open the `spaceship-services-frontend` folder in your code editor
+
+### Step 3: Open new terminal and run below commands
+
+```bash
+  npm i
+  npm run dev
+```
+
+### Step 4: Navigate to link `http://localhost:3000` in your browser and Voila! you will see a single page server side rendered app.
