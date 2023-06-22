@@ -33,12 +33,12 @@ export default function Home(data) {
                 <div className="row row-cols-2 row-cols-md-4 g-4 mt-8">
                 {data && data.data.length > 0 ? (
                 data.data.map((item) => (
-                    <div key={item.id} className="col-md-3">
+                    <div key={item?.id} className="col-md-3">
                         <div className="bg-white rounded p-4 d-flex flex-column align-items-start">
-                        <img src={item.image} alt={item.title} className="w-10 mb-2" />
-                        <h4 className="font-bold mb-2">{item.title}</h4>
-                        <p className="text-left text-muted">{item.description}</p>
-                        <a href='#' className="mt-auto text-info text-decoration-none">Learn More →</a>
+                            <img src={item.image} alt={item?.title} className="w-10 mb-2" />
+                            <h4 className="font-bold mb-2">{item?.title}</h4>
+                            <p className="text-left text-muted">{item?.description}</p>
+                            <a href='#' className="mt-auto text-info text-decoration-none">Learn More →</a>
                         </div>
                     </div>
                     ))
